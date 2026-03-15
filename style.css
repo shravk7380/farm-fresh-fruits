@@ -1,0 +1,86 @@
+body { font-family: Arial; background: #fdfaf5; margin: 0; }
+header { background: #2e7d32; color: white; padding: 16px; display: flex; justify-content: space-between; }
+.logo-title h1 { margin: 0; }
+.tagline { margin: 4px 0 0; font-size: 0.9em; }
+nav a { color: white; margin-left: 16px; text-decoration: none; }
+main { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.hero { background: #a5d6a7; padding: 32px; border-radius: 8px; }
+.button { background: #2e7d32; color: white; padding: 10px 18px; text-decoration: none; border-radius: 4px; }
+footer { text-align: center; padding: 16px; background: #1b5e20; color: white; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.mango-gallery {
+  margin: 40px 0;
+}
+
+.mango-gallery h3 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #2e7d32;
+}
+
+.mango-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.mango-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.mango-card:hover {
+  transform: translateY(-4px);
+}
+
+.mango-placeholder {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  border: 3px solid #f0f0f0;
+}
+
+.mango-card h4 {
+  margin: 0 0 8px;
+  color: #2e7d32;
+  font-size: 1.2rem;
+}

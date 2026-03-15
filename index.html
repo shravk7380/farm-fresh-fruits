@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farm Fresh Fruits – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <h1>Farm Fresh Fruits</h1>
+      <p class="tagline">Locally grown, picked fresh every morning.</p>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Fresh seasonal fruits from our farm to your table</h2>
+        <p>We are a family-owned farm near Brisbane, committed to growing fresh, flavorful, and sustainable produce.</p>
+        <a href="contact.html" class="button">Order or Visit Us</a>
+      </div>
+    </section>
+
+    <section class="mango-gallery">
+      <h3>Our Premium Mango Varieties</h3>
+      <div class="mango-grid">
+        <div class="mango-card">
+          <img src="images/banginpally.jpg" alt="Banginpally mango" style="width:120px; height:120px; object-fit:cover; border-radius:12px;">
+          <h4>Banginpally</h4>
+          <p>Large, sweet, fiberless. The queen of mangoes.</p>
+        </div>
+        <div class="mango-card">
+          <img src="images/mallika.jpg" alt="Mallika mango" style="width:120px; height:120px; object-fit:cover; border-radius:12px;">
+          <h4>Mallika</h4>
+          <p>Rich, creamy, aromatic hybrid variety.</p>
+        </div>
+        <div class="mango-card">
+          <img src="images/dhaseri.jpg" alt="Dhaseri mango" style="width:120px; height:120px; object-fit:cover; border-radius:12px;">
+          <h4>Dhaseri</h4>
+          <p>Small, intensely sweet, perfect for snacking.</p>
+        </div>
+        <div class="mango-card">
+          <img src="images/kesar.jpg" alt="Kesar mango" style="width:120px; height:120px; object-fit:cover; border-radius:12px;">
+          <h4>Kesar</h4>
+          <p>Saffron-colored flesh, honey-like flavor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Why choose Farm Fresh Fruits?</h3>
+      <ul class="benefits">
+        <li>Locally grown, minimal food miles.</li>
+        <li>Picked fresh daily for maximum flavor.</li>
+        <li>Sustainable farming practices.</li>
+        <li>Friendly service and flexible orders.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer style="margin-top: auto; padding: 16px; background: #1b5e20; color: white; text-align: center;">
+    © <span id="year"></span> Farm Fresh Fruits. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
